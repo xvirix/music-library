@@ -50,7 +50,18 @@ app.get("/", (req, res) => {
       console.log("Artist albums", data.body);
     },
     function (err) {
-      console.error(err);
+      // clientId, clientSecret and refreshToken has been set on the api object previous to this call.
+      spotifyApi.refreshAccessToken().then(
+        function (data) {
+          console.log("The access token has been refreshed!");
+          // Save the access token so that it's used in future calls
+          spotifyApi.setAccessToken(data.body["access_token"]);
+          res.redirect(req.originalUrl);
+        },
+        function (err) {
+          console.log("Could not refresh access token", err);
+        }
+      );
     }
   );
 });
