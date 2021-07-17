@@ -1,11 +1,11 @@
 import React from 'react';
-function Header() {
+import Songs from '../Player/Songs';
+
+function Footer() {
     return(
-        <nav class="navbar navbar-dark bg-primary">
-            <div className="row col-12 d-flex justify-content-center text-white">
-            <span className="h3">Register</span>
+            <div>
+                <p><Songs/></p>
             </div>
-        </nav>
     )
 }
-export default Header;
+export default Footer;

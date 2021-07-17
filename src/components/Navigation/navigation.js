@@ -1,14 +1,28 @@
 import React from 'react';
- 
-import { NavLink } from 'react-router-dom';
+import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
+import Login from '../LoginForm/LoginForm';
+import Registration from '../RegistrationForm/RegistrationForm';
+
+
  
 const Navigation = () => {
     return (
+       <BrowserRouter>
        <div>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/login">Login</NavLink>
-          <NavLink to="/registration">Registration</NavLink>
+          <Link to="/">Home</Link>
+          <Link to="/login">Login</Link>
+          <Link to="/registration">Registration</Link>
+
+          <Switch>
+          <Route path="/login">
+            <Login/>
+          </Route>
+          <Route path="/registration">
+            <Registration />
+          </Route>
+        </Switch>
        </div>
+       </BrowserRouter>
     );
 }
  
