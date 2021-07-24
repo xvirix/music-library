@@ -1,12 +1,17 @@
 const express = require("express");
 const mongoose = require("mongoose");
-// var SpotifyWebApi = require("spotify-web-api-node");
 const app = express();
 const PORT = process.env.PORT || 3001;
+const DeezerPublicApi = require('deezer-public-api');
+let deezer = new DeezerPublicApi();
+const cors = require('cors');
+
 
 //middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(cors());
+
 //static assets
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
@@ -18,8 +23,16 @@ mongoose.connect(
   {
     useNewUrlParser: true,
     useFindAndModify: false,
+    useUnifiedTopology: true
   }
 );
+
+app.get('/search/:q', (req, res) => {
+  deezer.search.artist(req.params.q).then((result) => {
+    console.log(result);
+    res.json(result);
+ });
+})
 
 //start server
 app.listen(PORT, () => {
