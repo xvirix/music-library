@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
@@ -23,6 +24,30 @@ function App() {
         <Contact></Contact>
       </div>
     </div>
+=======
+import Home from './components/Home/home';
+import Navigation from './components/Navigation/navigation';
+import Footer from './components/Header/Header';
+
+
+
+function App() {
+  return (
+    <div>
+      <nav>
+        <Navigation/>
+      </nav>
+
+      <main>
+        <Home/>
+      </main>
+     
+      <footer>
+        <Footer/>
+      </footer>
+
+    </div> 
+>>>>>>> b60144cc0bcc7e9079853631f2495e85efc22659
   );
 }
 

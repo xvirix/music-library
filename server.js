@@ -27,6 +27,7 @@ mongoose.connect(
   }
 );
 
+<<<<<<< HEAD
 app.get('/search/:q', (req, res) => {
   deezer.search.artist(req.params.q).then((result) => {
     console.log(result);
@@ -34,6 +35,8 @@ app.get('/search/:q', (req, res) => {
  });
 })
 
+=======
+>>>>>>> b60144cc0bcc7e9079853631f2495e85efc22659
 //start server
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
