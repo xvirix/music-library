@@ -16,7 +16,9 @@ deployed here:
 
 
 # Screenshots and Tutorial
-![alt text]()
+![alt text](https://github.com/xvirix/music-library/blob/main/public/images/171A9997-CAF6-472E-941E-2883F115D23B_1_105_c.jpeg)
+![alt text](https://github.com/xvirix/music-library/blob/main/public/images/F01DA40B-2B15-4D66-AEA1-973981F8BE30_1_105_c.jpeg)
+
 
 
 # Contributing 
