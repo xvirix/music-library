@@ -12,7 +12,7 @@ This is potential website for a music player. It allows the user to browse rando
 
 # Usage
 React
-deployed here:
+deployed here: https://xvirix.github.io/music-library/
 
 
 # Screenshots and Tutorial
