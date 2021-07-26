@@ -18,8 +18,8 @@ class Header extends Component {
             {data.headerTagline[0]}<br></br>{data.headerTagline[1]}<br></br>
             {data.headerTagline[2]}
                <br></br>
-                    <button><a rel="noopener noreferrer" >Top Music</a></button>
-                    <button><a rel="noopener noreferrer" >Browse</a></button>
+                    <button><a href="https://www.billboard.com/charts/hot-100" rel="noopener noreferrer" >Top Music</a></button>
+                    <button><a href="https://www.chosic.com/random-songs-generator-with-links-to-spotify-and-youtube/" rel="noopener noreferrer" >Browse</a></button>
                 </p>
             </Fade>
 

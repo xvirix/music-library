@@ -1,64 +1,61 @@
 {
-  "name": "music-library",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@fortawesome/react-fontawesome": "^0.1.14",
-    "@material-ui/core": "^4.12.1",
-    "@material-ui/icons": "^4.11.2",
-    "@material-ui/lab": "^4.0.0-alpha.60",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "axios": "^0.21.1",
-<<<<<<< HEAD
-    "bootstrap": "^5.0.2",
-    "dotenv": "^8.2.0",
-    "grade-js": "^1.0.10",
-    "lodash": "^4.17.21",
-=======
->>>>>>> b60144cc0bcc7e9079853631f2495e85efc22659
-    "mongoose": "^5.13.2",
-    "node-sass": "^6.0.1",
-    "react": "^17.0.2",
-    "react-bootstrap": "^1.6.1",
-    "react-dom": "^17.0.2",
-    "react-redux": "^7.2.4",
-    "react-reveal": "^1.2.2",
-    "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
-    "react-scroll": "^1.8.2",
-    "redux": "^4.1.0",
-    "redux-thunk": "^2.3.0",
-    "spotify-web-api-node": "^5.0.2",
-    "web-vitals": "^1.1.2",
-    "yarn": "^1.22.10"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "music-library",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.35",
+        "@fortawesome/free-solid-svg-icons": "^5.15.3",
+        "@fortawesome/react-fontawesome": "^0.1.14",
+        "@material-ui/core": "^4.12.1",
+        "@material-ui/icons": "^4.11.2",
+        "@material-ui/lab": "^4.0.0-alpha.60",
+        "@testing-library/jest-dom": "^5.14.1",
+        "@testing-library/react": "^11.2.7",
+        "@testing-library/user-event": "^12.8.3",
+        "axios": "^0.21.1",
+        "bootstrap": "^5.0.2",
+        "dotenv": "^8.2.0",
+        "grade-js": "^1.0.10",
+        "lodash": "^4.17.21",
+        "mongoose": "^5.13.2",
+        "node-sass": "^6.0.1",
+        "react": "^17.0.2",
+        "react-bootstrap": "^1.6.1",
+        "react-dom": "^17.0.2",
+        "react-redux": "^7.2.4",
+        "react-reveal": "^1.2.2",
+        "react-router": "^5.2.0",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "4.0.3",
+        "react-scroll": "^1.8.2",
+        "redux": "^4.1.0",
+        "redux-thunk": "^2.3.0",
+        "spotify-web-api-node": "^5.0.2",
+        "web-vitals": "^1.1.2",
+        "yarn": "^1.22.10"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
 }

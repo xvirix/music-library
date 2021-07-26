@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
+
 class Navbar extends Component {
     state = {  }
     scrollToTop = () => {
@@ -11,7 +12,7 @@ class Navbar extends Component {
                 <li><Link
                     className='link'
                     activeClass="active"
-                    to="home"
+                    to="Header"
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -21,7 +22,7 @@ class Navbar extends Component {
                 <li><Link
                     className='link'
                     activeClass="active"
-                    to="contact"
+                    to="Contact"
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -30,30 +31,30 @@ class Navbar extends Component {
                 <li><Link
                     className='link'
                     activeClass="active"
-                    to=""
+                    to="Songs"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}
-                >Download</Link></li>
+                >Listen to Music</Link></li>
                 <li><Link
                     className='link'
                     activeClass="active"
-                    to=""
+                    to="Login"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}
-                >Sign Up</Link></li>
+                >Sign Up/Login</Link></li>
                     <li><Link
                     className='link'
                     activeClass="active"
-                    to=""
+                    to="Rej"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}
-                >Log in</Link></li>
+                ></Link></li>
             </ul>
         </nav> );
     }

@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import Player from './Player';
+import './style.css'
 
 function Songs() {
 const [songs] = useState([
@@ -10,22 +11,22 @@ const [songs] = useState([
       src: "./songs/song1.mp3"
     },
     {
-      title: "Song 2",
-      artist: "Artist 2",
-      img_src: "./images/song-2.jpg",
-      src: "./music/somebody-new.mp3"
+      title: "My Favorite Part (feat. Ariana Grande)",
+      artist: "Mac Miller",
+      img_src: "./images/MyFavoritePart.jpeg",
+      src: "./songs/Song2.mp3"
     },
     {
-      title: "Song 3",
-      artist: "Artist 3",
-      img_src: "./images/song-3.jpg",
-      src: "./music/on-n-on.mp3"
+      title: "Save Your Tears",
+      artist: "The Weeknd & Ariana Grande",
+      img_src: "./images/blindinglights.png",
+      src: "./songs/song3.mp3"
     },
     {
-      title: "Song 4",
-      artist: "Artist 4",
-      img_src: "./images/song-4.jpg",
-      src: "./music/somebody-new.mp3"
+      title: "good 4 u,",
+      artist: "Olivia Rodrigo",
+      img_src: "./images/olivia.jpg",
+      src: "./songs/song4.mp3"
     }
   ]);
 
